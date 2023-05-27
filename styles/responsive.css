@@ -77,7 +77,6 @@
 /* 474 */
 @media screen and (max-width: 474px) {
  
-    /* .gradient {
-        top: 681px !important;
-    }  */
+    .contact__tower { 
+    width: 300px }
 }
