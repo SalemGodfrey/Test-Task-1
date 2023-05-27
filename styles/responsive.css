@@ -59,9 +59,6 @@
 /* 767 */
 @media screen and (max-width: 767px) {
  
-.popupS,  .popupL {
-width: 50% !important;
-}
     .game-miner {
         background-position-x: -62px !important;
 
