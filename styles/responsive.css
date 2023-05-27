@@ -78,5 +78,5 @@
 @media screen and (max-width: 474px) {
  
     .contact__tower { 
-    width: 300px }
+    width: 300px !important }
 }
