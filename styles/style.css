@@ -395,7 +395,6 @@ footer {
 
 .popupS {
     width: 20vw;
-    height: 40vh;
     padding: 60px;
     background: linear-gradient(268.31deg, rgba(79, 89, 124, 0.4) 0%, rgba(123, 135, 175, 0.4) 50.52%, rgba(63, 72, 105, 0.4) 100%);
     border: 1px solid #3A4054;
@@ -410,7 +409,6 @@ footer {
 }
 .popupL {
     width: 20vw;
-    height: 40vh;
     padding: 60px;
     background: linear-gradient(268.31deg, rgba(79, 89, 124, 0.4) 0%, rgba(123, 135, 175, 0.4) 50.52%, rgba(63, 72, 105, 0.4) 100%);
     border: 1px solid #3A4054;
