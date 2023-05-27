@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0 !important;
+}
+
+.button {
+    border-radius: 8px;
+    padding: 9px 32px;
+    font-family: 'Proxima Nova';
+
+}
+
+.fill-gradient {
+    background: linear-gradient(265.48deg, #4870FF -5.06%, #FA00FF 94.87%);
+    box-shadow: 0px 4px 16px rgba(138, 97, 255, 0.6);
+    border: none;
+    color: white;
+}
+
+.fill-transparent {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+
+.border-solid {
+
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    filter: drop-shadow(0px 4px 16px rgba(138, 97, 255, 0.6));
+}
+
+.fill-nav {
+    background: rgba(1, 1, 31, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+.section1 {
+    position: relative;
+    background-image: url('../images/bg_hero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.section2 {
+    position: relative;
+    background-image: url('../images/bg_contact.jpeg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gradient {
+    background: linear-gradient(180deg, rgba(2, 12, 45, 0) 0%, #06071c 100%);
+    mix-blend-mode: normal;
+    height: 333px;
+    position: absolute;
+    
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.heading_lv1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+}
+
+.section1__heading_lv2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.actived {
+    background: linear-gradient(265.48deg, #4870FF -5.06%, #FA00FF 94.87%) !important;
+    text-shadow: 0px 4px 16px rgba(138, 97, 255, 0.6) !important;
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+}
+
+.nav-link {
+    font-family: 'Proxima Nova';
+
+}
+
+.align_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    z-index: 2;
+    position: relative;
+}
+
+.fast-reg {
+    background: linear-gradient(268.31deg, rgba(79, 89, 124, 0.4) 0%, rgba(123, 135, 175, 0.4) 50.52%, rgba(63, 72, 105, 0.4) 100%);
+    border: 1px solid #3A4054;
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-top: 59px;
+}
+
+.fast-reg__input {
+    padding: 11px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.col {
+    padding: 0 !important;
+}
+
+.policy {
+    font-family: 'Proxima Nova Lt';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.fast-reg__heading_lv3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Proxima Nova';
+    text-transform: uppercase;
+
+}
+
+.fast-reg__features {
+    font-family: 'Proxima Nova Lt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 6px;
+}
+
+.fast-reg__icon {
+    width: 36px;
+}
+
+.section2__heading2 {
+    color: white;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: capitalize;
+    z-index: 4;
+    position: relative;
+}
+
+.section2__heading3 {
+    font-family: 'Proxima Nova Lt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.section2__game_thumb {
+    box-shadow: 0px 0px 24px -4px rgba(72, 112, 255, 0.2);
+    border-radius: 16px;
+    width: 100%;
+
+}
+
+.section2__game_name {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.section2__game_developer {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.section2__block1 {
+    width: 50%;
+    float: left;
+}
+
+.section2__block2 {
+    width: 50%;
+    float: right;
+}
+
+.game-miner {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/DynamiteRichesMW_BigWin_385x190.jpeg');
+    background-position: right;
+    background-position-x: -0px;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 12px;
+    color: white;
+}
+
+.game-miner__heading4 {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    width: 50%;
+    color: #FFFFFF;
+}
+
+.game-miner__paragraph {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    width: 65%;
+    color: #FFFFFF;
+}
+
+.primary-round {
+    background-color: #4870FF;
+    border: none;
+    outline: none;
+    border-radius: 17px;
+    color: white;
+    padding: 5px 13px;
+    font-size: 10px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+
+}
+
+.game-aligator {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/GOTM_GatorGold_385x190.jpeg');
+    background-position: right;
+    background-position-x: 0px;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 12px;
+    color: white;
+    margin: 0 10px;
+}
+
+.game-banner {
+    width: 100%;
+   
+}
+
+.game-banner__heading4 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.game-banner__span {
+    font-family: 'Proxima Nova lt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.game-banner_padding1 {
+    margin-left: 10px;
+}
+
+.game-banner_padding2 {
+    margin-right: 20px;
+
+}
+
+.section2__paragraph1 {
+    font-family: 'Proxima Nova lt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.contact__heading3 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.contact__span {
+    font-family: 'Proxima Nova lt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.contact__input {
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: black;
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+}
+
+footer {
+    width: 100%;
+    background: #01011F;
+}
+
+ a {
+    color: white !important;
+ }
+
+.footer__span {
+    font-family: 'Proxima Nova rg';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer__paragraph {
+    font-family: 'Proxima Nova lt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+ 
+    margin: auto;
+    color: #FFFFFF;
+
+}
+
+.footer__span2 {
+    font-family: 'Proxima Nova lt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.section2__respblock1{
+    display: none;
+}
+.block {
+    display: block ;
+}
+
+.popupS {
+    width: 20vw;
+    height: 40vh;
+    padding: 60px;
+    background: linear-gradient(268.31deg, rgba(79, 89, 124, 0.4) 0%, rgba(123, 135, 175, 0.4) 50.52%, rgba(63, 72, 105, 0.4) 100%);
+    border: 1px solid #3A4054;
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    position: fixed;
+    z-index: 9999;
+    top: 30vh;
+    left: 40vw;
+    display: none;
+    transition: 1s;
+}
+.popupL {
+    width: 20vw;
+    height: 40vh;
+    padding: 60px;
+    background: linear-gradient(268.31deg, rgba(79, 89, 124, 0.4) 0%, rgba(123, 135, 175, 0.4) 50.52%, rgba(63, 72, 105, 0.4) 100%);
+    border: 1px solid #3A4054;
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    position: fixed;
+    z-index: 9999;
+    top: 30vh;
+    left: 40vw;
+    display: none;
+   
+}
+
+.popup__h2 {
+    color: aliceblue;
+    text-align: center;
+    font-variant: small-caps;
+}
+.popup__input {
+    padding: 11px;
+    outline: none;
+    border: none;
+    margin: 5px;
+    border-radius: 8px;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  body {
+    background-color: #01011F !important
+  }
+  /* Скрыть прелоадер после загрузки страницы */
+  body.loaded .preloader {
+    display: none;
+  }

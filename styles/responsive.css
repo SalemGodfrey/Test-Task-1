@@ -1,0 +1,83 @@
+/* 1399 */
+@media screen and (max-width: 1399px) {
+    .game-miner {
+        background-position-x: -62px !important;
+
+    }
+}
+
+/* 1199 */
+@media screen and (max-width: 1199px) {
+    #resp__COL1 {
+        width: 100% !important;
+        padding: 15px !important;
+    }
+
+    #resp__COL2 {
+        width: 100% !important;
+    }
+
+    .game-miner {
+        background-position-x: -101px !important;
+
+    }
+
+    .game-aligator {
+        background-position-x: -78px !important;
+
+    }
+}
+
+/* 991 */
+@media screen and (max-width: 991px) {
+
+    .section2__respblock1 {
+        display: block !important;
+    }
+
+    .block {
+        display: none !important;
+    }
+
+    /* .gradient {
+        top: 403px !important;
+    } */
+
+    .game-miner {
+        background-position-x: 0 !important;
+
+    }
+
+    .game-aligator {
+        background-position-x: -0px !important;
+
+    }
+}
+
+
+
+/* 767 */
+@media screen and (max-width: 767px) {
+ 
+
+    .game-miner {
+        background-position-x: -62px !important;
+
+    }
+
+    .resp-center {
+        display: flex;
+        justify-content: center;
+    }
+    .fast-reg__heading_lv3 {
+        text-align: center;
+    }
+}
+
+/* 474 */
+@media screen and (max-width: 474px) {
+ 
+    /* .gradient {
+        top: 681px !important;
+    }  */
+}
