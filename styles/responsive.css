@@ -79,7 +79,7 @@
     .contact__tower { 
     width: 300px !important }
      .popupS, .popupL {
-        width: 90%;
-        left: 5vw;
+        width: 90% !important;
+        left: 5vw !important;
     }
 }
